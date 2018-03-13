@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wings/CLionProjects/myShCommand/mylsp.cpp
+stdio.h
+-
+sys/types.h
+-
+dirent.h
+-
+sys/stat.h
+-
+pwd.h
+-
+grp.h
+-
+cstdio
+-
+

@@ -37,52 +37,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="testa">
-				<Option output="/home/wings/Projects/myShCommand/cmake-build-debug/testa" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wings/Projects/myShCommand/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/wings/Projects/myShCommand/./include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 testa"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testa/fast">
-				<Option output="/home/wings/Projects/myShCommand/cmake-build-debug/testa" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wings/Projects/myShCommand/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/wings/Projects/myShCommand/./include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 testa/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wings/Projects/myShCommand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="myls">
 				<Option output="/home/wings/Projects/myShCommand/cmake-build-debug/myls" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/wings/Projects/myShCommand/cmake-build-debug"/>
@@ -182,9 +136,6 @@
 		</Unit>
 		<Unit filename="/home/wings/Projects/myShCommand/myls_opt.c">
 			<Option target="myls"/>
-		</Unit>
-		<Unit filename="/home/wings/Projects/myShCommand/testa.c">
-			<Option target="testa"/>
 		</Unit>
 		<Unit filename="/home/wings/Projects/myShCommand/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

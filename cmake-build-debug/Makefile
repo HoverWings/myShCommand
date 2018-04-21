@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testa
-
-# Build rule for target.
-testa: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testa
-.PHONY : testa
-
-# fast build rule for target.
-testa/fast:
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/build
-.PHONY : testa/fast
-
-#=============================================================================
 # Target rules for targets named myls
 
 # Build rule for target.
@@ -176,33 +163,6 @@ myls_opt.c.s:
 	$(MAKE) -f CMakeFiles/myls.dir/build.make CMakeFiles/myls.dir/myls_opt.c.s
 .PHONY : myls_opt.c.s
 
-testa.o: testa.c.o
-
-.PHONY : testa.o
-
-# target to build an object file
-testa.c.o:
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/testa.c.o
-.PHONY : testa.c.o
-
-testa.i: testa.c.i
-
-.PHONY : testa.i
-
-# target to preprocess a source file
-testa.c.i:
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/testa.c.i
-.PHONY : testa.c.i
-
-testa.s: testa.c.s
-
-.PHONY : testa.s
-
-# target to generate assembly for a file
-testa.c.s:
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/testa.c.s
-.PHONY : testa.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,15 +171,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... testa"
 	@echo "... myls"
 	@echo "... MYSHLIB"
 	@echo "... myls_opt.o"
 	@echo "... myls_opt.i"
 	@echo "... myls_opt.s"
-	@echo "... testa.o"
-	@echo "... testa.i"
-	@echo "... testa.s"
 .PHONY : help
 
 

@@ -47,7 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/testa.dir/DependInfo.cmake"
   "CMakeFiles/myls.dir/DependInfo.cmake"
   "include/CMakeFiles/MYSHLIB.dir/DependInfo.cmake"
   )

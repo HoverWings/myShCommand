@@ -60,43 +60,6 @@ CMAKE_SOURCE_DIR = /home/wings/Projects/myShCommand
 CMAKE_BINARY_DIR = /home/wings/Projects/myShCommand/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/testa.dir
-
-# All Build rule for target.
-CMakeFiles/testa.dir/all: include/CMakeFiles/MYSHLIB.dir/all
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/depend
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wings/Projects/myShCommand/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target testa"
-.PHONY : CMakeFiles/testa.dir/all
-
-# Include target in all.
-all: CMakeFiles/testa.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/testa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wings/Projects/myShCommand/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wings/Projects/myShCommand/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testa.dir/rule
-
-# Convenience name for target.
-testa: CMakeFiles/testa.dir/rule
-
-.PHONY : testa
-
-# clean rule for target.
-CMakeFiles/testa.dir/clean:
-	$(MAKE) -f CMakeFiles/testa.dir/build.make CMakeFiles/testa.dir/clean
-.PHONY : CMakeFiles/testa.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/testa.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/myls.dir
 
 # All Build rule for target.

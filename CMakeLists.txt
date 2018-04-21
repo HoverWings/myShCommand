@@ -11,6 +11,6 @@ add_executable(myls myls_opt.c)
 TARGET_LINK_LIBRARIES(myls MYSHLIB)
 
 
-add_executable(testa testa.c)
-TARGET_LINK_LIBRARIES(testa MYSHLIB)
+
 #add_executable(mypwd mypwd.c)
+

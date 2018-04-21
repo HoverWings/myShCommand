@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/mypwd.dir/mypwd.c.o  -o mypwd 

@@ -1,6 +1,7 @@
 cmake-build-debug/*
 
 include/*
-!myshlib.c
-!myshlib.h
-!CMakeLists.txt
+
+!include/myshlib.c
+!include/myshlib.h
+!include/CMakeLists.txt

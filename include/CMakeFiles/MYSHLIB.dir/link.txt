@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMYSHLIB.a  CMakeFiles/MYSHLIB.dir/myshlib.o
-/usr/bin/ranlib libMYSHLIB.a

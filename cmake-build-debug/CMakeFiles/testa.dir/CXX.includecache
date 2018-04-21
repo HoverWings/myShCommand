@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wings/Projects/myShCommand/mycp.cpp
+string.h
+-
+unistd.h
+-
+stdio.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+dirent.h
+-
+stdlib.h
+-
+
+/home/wings/Projects/myShCommand/mycpp1.cpp
+string.h
+-
+unistd.h
+-
+stdio.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+dirent.h
+-
+stdlib.h
+-
+

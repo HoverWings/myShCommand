@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wings/Projects/myShCommand/mypwd.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/stat.h
+-
+dirent.h
+-
+string.h
+-
+

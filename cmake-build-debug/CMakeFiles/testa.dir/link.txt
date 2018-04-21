@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/testa.dir/testa.c.o  -o testa include/libMYSHLIB.a 

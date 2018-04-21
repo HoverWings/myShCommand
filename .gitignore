@@ -1,5 +1,5 @@
 cmake-build-debug/*
-
+./idea
 include/*
 
 !include/myshlib.c

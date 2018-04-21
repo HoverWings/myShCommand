@@ -3,5 +3,9 @@
 1. [x] ls
 2. [x] fileinfo
 3. [x] ls -l
-4. [ ] touch
-5. [ ] grep
+4. [x] ls -Rlav
+5. [x] cp
+6. [ ] touch 
+7. [ ] grep
+8. [ ] ping
+9. [ ] who
